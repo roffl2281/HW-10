@@ -6,11 +6,19 @@
 .h1h1 {
     color: #FFFFFF;
 line-height: 1.36;
+margin-bottom: 30px;
+text-transform: uppercase;
 }
 
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 .a-1 {
     background: #2196F3;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .a-meni {
@@ -41,10 +49,13 @@ p {
 
 .chm {
     width: 370px;
+    margin-top: 50px;
 }
 
 .foto {
     width: 270px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .section_flex {
@@ -67,8 +78,9 @@ p {
 
 
 .yvaga {
-    font-weight: bold;
+    font-weight: 400;
 line-height: 1.71;
+margin-bottom: 94px;
 
 }
 
@@ -89,3 +101,6 @@ body {
     line-height: 1.71;
 }
 
+.a-meni:hover {
+    color: #2196F3
+}
